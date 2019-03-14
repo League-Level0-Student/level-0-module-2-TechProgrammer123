@@ -81,7 +81,7 @@ public class RockPaperScissors extends JPanel implements ActionListener{
 	//   Don't forget to create a Random object.
 	    int r = 0;
 	    Random random = new Random();
-	    r = random.nextInt((2 - 0)+1) + 0;
+	    r = random.nextInt(2);
         //2. Change the value of opponentSelection to be a random number between 0 and 2; 
         int opponentSelection = r;
         
